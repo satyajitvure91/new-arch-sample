@@ -1,0 +1,9 @@
+mutation BookTrip($ids:[ID]!) {
+  bookTrips(launchIds: $ids) {
+    success
+    message
+    launches {
+      id
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "data": {
+    "launch": {
+      "__typename": "Launch",
+      "id": "109",
+      "site": "CCAFS SLC 40",
+      "mission": {
+        "__typename": "Mission",
+        "name": "Starlink-15 (v1.0)",
+        "missionPatch": "https://images2.imgbox.com/d2/3b/bQaWiil0_o.png"
+      },
+      "rocket": {
+        "__typename": "Rocket",
+        "name": "Falcon 9",
+        "type": "FT"
+      },
+      "isBooked": false
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "data": {
+    "bookTrips": {
+      "__typename": "TripUpdateResponse",
+      "success": true,
+      "message": "trips booked successfully",
+      "launches": [
+        {
+          "__typename": "Launch",
+          "id": "100"
+        }
+      ]
+    }
+  }
+}

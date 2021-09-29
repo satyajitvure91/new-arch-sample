@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main.xml"
+    app:startDestination="@id/launchesListFragment">
+
+    <fragment
+        android:id="@+id/launchesListFragment"
+        android:name="com.satyajit.codes.new_arch_sample.view.LaunchesListFragment"
+        android:label="LaunchesListFragment" >
+        <action
+            android:id="@+id/action_launchesListFragment_to_launchDetailsFragment"
+            app:destination="@id/launchDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/launchDetailsFragment"
+        android:name="com.satyajit.codes.new_arch_sample.view.LaunchDetailsFragment"
+        android:label="LaunchDetailsFragment" >
+        <argument
+            android:name="id"
+            app:argType="string" />
+    </fragment>
+</navigation>
